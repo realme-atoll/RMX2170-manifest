@@ -3,7 +3,7 @@
   <remote name="github-remote" fetch="https://github.com" />
 
   <!-- Realme device (atoll) trees -->
-  <project path="device/realme/RMX2170" name="r7pro/android_device_realme_RMX2170" remote="github-remote" revision="aosp-16" />
+  <project path="device/realme/RMX2170" name="r7pro/android_device_realme_RMX2170" remote="github-remote" revision="evox-bka" />
   <project path="device/realme/sm7125-common" name="r7pro/android_device_realme_sm7125-common" remote="github-remote" revision="aosp-16" />
 
   <!-- Vendor blobs -->
