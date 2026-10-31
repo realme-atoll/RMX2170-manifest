@@ -3,7 +3,7 @@
   <remote name="github-remote" fetch="https://github.com" />
 
   <!-- Realme device (atoll) trees -->
-  <project path="device/realme/RMX2170" name="realme-atoll/android_device_realme_RMX2170" remote="github-remote" revision="aosp-17" />
+  <project path="device/realme/RMX2170" name="realme-atoll/android_device_realme_RMX2170" remote="github-remote" revision="evox/cnb" />
   <project path="device/realme/sm7125-common" name="realme-atoll/android_device_realme_sm7125-common" remote="github-remote" revision="aosp-17" />
 
   <!-- Vendor blobs -->
@@ -15,4 +15,7 @@
 
   <!-- Audio deps -->
   <project path="hardware/dolby" name="realme-atoll/hardware_dolby" remote="github-remote" revision="cnb-aospa" />
+
+  <!-- Drop unneeded Audio-AR HALs that cause Soong conflicts on SM7125/atoll -->
+  <remove-project name="LineageOS/android_hardware_qcom_audio-ar" />
 </manifest>
