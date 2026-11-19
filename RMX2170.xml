@@ -16,6 +16,4 @@
   <!-- Audio deps -->
   <project path="hardware/dolby" name="realme-atoll/hardware_dolby" remote="github-remote" revision="cnb-aospa" />
 
-  <!-- Drop unneeded Audio-AR HALs that cause Soong conflicts on SM7125/atoll -->
-  <remove-project name="LineageOS/android_hardware_qcom_audio-ar" />
 </manifest>
